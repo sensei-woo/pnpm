@@ -60,7 +60,7 @@ jobs:
       with:
         persist-credentials: false
     - if: ${{ inputs.garnet }}
-      uses: garnet-org/action@2b7fc9d79b54f551b43358c27424a36064b3e078 # v2.0.2
+      uses: garnet-org/action@a45f79136c5a9cf936455b1533ccce8f7db5f4a3 # v2.1.1
       with:
         api_token: ${{ secrets.GARNET_API_TOKEN }}
     - name: Install pnpm and Node
